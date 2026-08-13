@@ -123,35 +123,65 @@ AI helps organize the investigation, while SQL, Excel, or source-system checks r
 
 ---
 
-## Example Business Scenarios
+## Real-World Business Cases
 
-This repository will include realistic examples based on common e-commerce and operations workflows.
+The workflows in this repository are based on business problems I have worked with in e-commerce, finance, supply chain, and operations environments.
 
-### Inventory Mismatch
+### [Marketplace Settlement & Bank Reconciliation](examples/marketplace-bank-reconciliation-case.md)
 
-A marketplace shows an item as available while the internal inventory system shows no stock.
+Reconciliation between internal transaction data, Amazon settlements, bank deposits, Excel, and NetSuite.
 
-The workflow demonstrates how AI can help structure:
+Focus areas:
 
-1. Initial triage
-2. Possible root causes
-3. Required data checks
-4. SQL / system validation
-5. Stakeholder communication
-6. Corrective action
+* SQL-based transaction extraction
+* Python-assisted settlement cleanup
+* Cross-system reconciliation
+* Finance handoff
+* Exception-focused review
+* Reducing repetitive manual matching
 
-### Delivery Exception
+---
 
-A group of orders repeatedly fails delivery or remains in an unresolved status.
+### [Inventory Overstock & Supply Chain Recovery](examples/inventory-overstock-supply-chain-case.md)
 
-The workflow demonstrates how to organize:
+A supply-chain and warehouse-capacity problem involving slow-moving inventory, rising logistics costs, incoming containers, and limited storage space.
 
-* Exception patterns
-* Operational impact
-* Data-quality checks
-* Root-cause hypotheses
-* Escalation criteria
-* Follow-up actions
+Focus areas:
+
+* Inventory risk analysis
+* Sales velocity and weeks-of-supply
+* Warehouse capacity
+* Incoming inventory
+* Logistics and storage cost pressure
+* Clearance and replenishment decisions
+* Management decision support
+
+---
+
+### [E-commerce Process Automation](examples/ecommerce-process-automation-case.md)
+
+A gradual transition from manual marketplace downloads, uploads, spreadsheet matching, and recurring reporting toward more automated SQL/Python workflows.
+
+Focus areas:
+
+* Business process analysis
+* SQL data extraction
+* Python transformation
+* Data standardization
+* Workflow automation
+* Exception monitoring
+* Reducing repetitive manual work
+
+---
+
+## Example Workflow Templates
+
+The repository also includes reusable workflow templates for:
+
+* [Root Cause Analysis](workflows/root-cause-analysis.md)
+* [Stakeholder Updates](workflows/stakeholder-update.md)
+* [UAT Checklists](workflows/uat-checklist.md)
+* [Data Quality Review](workflows/data-quality-review.md)
 
 ---
 
